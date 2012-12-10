@@ -1,8 +1,8 @@
 
 
 [_id]
-ProductCode=10
-FID=2000
+ProductCode=1
+FID=4538
 CodePage=1252
 [End]
 
@@ -130,11 +130,13 @@ Type=0x015,9
 
 [_polygon]
 Type=0x03
-String1=0x00,Residential area
-String2=0x07,Bostadsområde
-ExtendedLabels=N
+String1=0x00,Residential
+String2=0x02,Bostadsområde
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
 Xpm="0 0 1 0"
-"1 c #CCCCCC"
+"1 c #BFBFBF"
 [end]
 
 
@@ -142,7 +144,9 @@ Xpm="0 0 1 0"
 Type=0x04
 String1=0x00,Military
 String2=0x07,Militärområde
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
 Xpm="32 32 2 1"
 "! c #C00000"
 "# c #000E00"
@@ -187,7 +191,7 @@ Type=0x05
 String1=0x00,Parking
 String2=0x07,Parkering
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #A4A4A4"
@@ -233,7 +237,7 @@ Type=0x06
 String1=0x00,Bike parking
 String2=0x07,Cykelparkering
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFFFB4"
@@ -279,7 +283,7 @@ Type=0x07
 String1=0x00,pedestrian
 String2=0x07,gångbana
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD956A"
@@ -325,7 +329,7 @@ Type=0x08
 String1=0x00,Commercial
 String2=0x07,Köpcentrum
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #E6E6E6"
@@ -370,7 +374,7 @@ Xpm="32 32 2 1"
 Type=0x09
 String1=0x00,Marina/Swimmingpool
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7BCAFF"
@@ -415,7 +419,9 @@ Xpm="32 32 2 1"
 Type=0x0a
 String1=0x00,School
 String2=0x07,Skola
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFE344"
 "# c #000E00"
@@ -459,7 +465,9 @@ Xpm="32 32 2 1"
 Type=0x0b
 String1=0x00,Hospital
 String2=0x07,Sjukhus
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
 Xpm="32 32 2 1"
 "! c #FDBDFF"
 "# c #000E00"
@@ -502,9 +510,9 @@ Xpm="32 32 2 1"
 [_polygon]
 Type=0x0c
 String1=0x00,Industry
-String2=0x02,Industriområde
+String2=0x07,Industriområde
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #C5C5C5"
@@ -550,7 +558,7 @@ Type=0x0d
 String1=0x00,Locality
 String2=0x07,Tätort
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #E6E6E6"
@@ -595,7 +603,9 @@ Xpm="32 32 2 1"
 Type=0x0e
 String1=0x00,airport
 String2=0x07,flygplats
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
 Xpm="32 32 2 1"
 "! c #D4FEFF"
 "# c #000E00"
@@ -639,7 +649,9 @@ Xpm="32 32 2 1"
 Type=0x11
 String1=0x00,Quarry
 String2=0x07,Stenbrott
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
 Xpm="32 32 2 1"
 "! c #C7AE76"
 "# c #EEDDAA"
@@ -684,7 +696,7 @@ Type=0x12
 String1=0x07,Arkeologisk plats
 String2=0x00,Archaeological_site
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BDFFD5"
@@ -730,7 +742,7 @@ Type=0x13
 String1=0x07,Byggnad
 String2=0x00,Building
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="0 0 1 0"
 "1 c #9C8670"
@@ -742,7 +754,7 @@ Type=0x14
 String1=0x00,University
 String2=0x07,Universitet
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD956A"
@@ -788,7 +800,7 @@ Type=0x15
 String1=0x00,Church
 String2=0x07,Kyrka
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD9541"
@@ -834,7 +846,7 @@ Type=0x16
 String1=0x00,Natural Park
 String2=0x07,Naturpark
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7BCA8B"
@@ -880,7 +892,7 @@ Type=0x17
 String1=0x00,Village Green
 String2=0x07,Grönområde
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -925,7 +937,7 @@ Xpm="32 32 2 1"
 Type=0x18
 String1=0x00,Golf
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BDFF8B"
@@ -970,7 +982,7 @@ Xpm="32 32 2 1"
 Type=0x19
 String1=0x00,Sport
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7BCA41"
@@ -1016,7 +1028,7 @@ Type=0x1a
 String1=0x00,Cemetary
 String2=0x07,Kyrkogård
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #75AC7D"
@@ -1062,7 +1074,7 @@ Type=0x1b
 String1=0x00,Climbing
 String2=0x07,Klättring
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #949494"
@@ -1106,9 +1118,9 @@ Xpm="32 32 2 1"
 [_polygon]
 Type=0x1c
 String1=0x00,Soccer
-String2=0x02,Fotboll
+String2=0x07,Fotboll
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #525252"
@@ -1154,7 +1166,7 @@ Type=0x1d
 String1=0x00,Stadium
 String2=0x07,Arena
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD956A"
@@ -1199,7 +1211,7 @@ Xpm="32 32 2 1"
 Type=0x1e
 String1=0x00,Tennis
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #838383"
@@ -1245,7 +1257,7 @@ Type=0x1f
 String1=0x00,Sports_Centre
 String2=0x07,Sporthall
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFCA8B"
@@ -1290,7 +1302,7 @@ Xpm="32 32 2 1"
 Type=0x20
 String1=0x00,Motorsport
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD658B"
@@ -1336,7 +1348,7 @@ Type=0x21
 String1=0x00,Railways
 String2=0x07,Järnväg
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #C5C5C5"
@@ -1382,7 +1394,7 @@ Type=0x22
 String1=0x00,Skate(board)
 String2=0x07,Skateboard
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #525252"
@@ -1428,7 +1440,7 @@ Type=0x23
 String1=0x00,Pingpong
 String2=0x07,Pingis
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #B4B4B4"
@@ -1473,7 +1485,7 @@ Xpm="32 32 2 1"
 Type=0x24
 String1=0x00,Athletics
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7B956A"
@@ -1519,7 +1531,7 @@ Type=0x25
 String1=0x00,Sporthall
 String2=0x07,Sporthall
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #949494"
@@ -1565,7 +1577,7 @@ Type=0x27
 String1=0x00,park
 String2=0x07,Park
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BDFF8B"
@@ -1611,7 +1623,7 @@ Type=0x28
 String1=0x00,park
 String2=0x07,Park
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BDCA8B"
@@ -1657,7 +1669,7 @@ Type=0x29
 String1=0x00,Public/Commercial Building
 String2=0x07,Kommersiell byggnad
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD958B"
@@ -1702,7 +1714,9 @@ Xpm="32 32 2 1"
 Type=0x2e
 String1=0x00,Beach
 String2=0x07,Strand
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
 Xpm="32 32 2 1"
 "! c #C7AE76"
 "# c #EEDDAA"
@@ -1747,7 +1761,7 @@ Type=0x30
 String1=0x00,vineyard
 String2=0x07,Vingård
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFCA41"
@@ -1791,9 +1805,9 @@ Xpm="32 32 2 1"
 [_polygon]
 Type=0x31
 String1=0x00,Airport
-String2=0x02,Flygplats
+String2=0x07,Flygplats
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD956A"
@@ -1839,7 +1853,7 @@ Type=0x32
 String1=0x00,Terminal
 String2=0x07,Terminal
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FF958B"
@@ -1885,7 +1899,7 @@ Type=0x33
 String1=0x00,meadow
 String2=0x07,Äng
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -1931,7 +1945,7 @@ Type=0x34
 String1=0x00,University
 String2=0x07,Universitet
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BDCA00"
@@ -1976,7 +1990,7 @@ Xpm="32 32 2 1"
 Type=0x3a
 String1=0x00,Lake
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #3965D5"
@@ -2022,7 +2036,7 @@ Type=0x3b
 String1=0x00,Wastewater_plant
 String2=0x07,Avloppsreningsverk
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7B656A"
@@ -2068,7 +2082,7 @@ Type=0x3c
 String1=0x00,water
 String2=0x07,Vatten
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #39CAFF"
@@ -2114,7 +2128,7 @@ Type=0x3d
 String1=0x00,Pool
 String2=0x07,Simbassäng
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #39CAFF"
@@ -2160,7 +2174,7 @@ Type=0x3e
 String1=0x00,River
 String2=0x07,Å
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #39CAFF"
@@ -2206,7 +2220,7 @@ Type=0x3f
 String1=0x00,water reservoir
 String2=0x07,Vattenreservoar
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7B95FF"
@@ -2252,7 +2266,7 @@ Type=0x41
 String1=0x00,basin
 String2=0x07,Bassäng
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7B95D5"
@@ -2297,7 +2311,7 @@ Xpm="32 32 2 1"
 Type=0x42
 String1=0x00,Zoo
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7B956A"
@@ -2342,7 +2356,7 @@ Xpm="32 32 2 1"
 Type=0x43
 String1=0x00,Station
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7B6541"
@@ -2388,7 +2402,7 @@ Type=0x44
 String1=0x00,Greenfield
 String2=0x07,Grönområde
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BDCA8B"
@@ -2434,7 +2448,7 @@ Type=0x45
 String1=0x00,Brownfield
 String2=0x07,Brunområde
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD956A"
@@ -2480,7 +2494,7 @@ Type=0x46
 String1=0x00,basin
 String2=0x07,Vattenbehållare
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #39CAFF"
@@ -2525,7 +2539,7 @@ Xpm="32 32 2 1"
 Type=0x4c
 String1=0x00,Farmyard
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #D5D5D5"
@@ -2571,7 +2585,7 @@ Type=0x4d
 String1=0x00,Glacier
 String2=0x07,Glaciär
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #ABBFBF"
@@ -2617,7 +2631,7 @@ Type=0x4e
 String1=0x00,Allotments
 String2=0x07,Kolonilotter
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -2660,9 +2674,11 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x4f
-String1=0x07,Buskskog
-String2=0x00,Scrub
-ExtendedLabels=N
+String1=0x00,Scrub
+String2=0x07,Buskskog
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
 "# c #A0CBA0"
@@ -2707,7 +2723,7 @@ Type=0x50
 String1=0x00,forest
 String2=0x07,skog
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -2753,7 +2769,7 @@ Type=0x51
 String1=0x00,Wetland
 String2=0x07,Träsk
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -2799,7 +2815,7 @@ Type=0x52
 String1=0x00,Landfill
 String2=0x07,Depå
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BDCA6A"
@@ -2845,7 +2861,7 @@ Type=0x53
 String1=0x00,bay
 String2=0x07,Vik
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #39CAFF"
@@ -2890,7 +2906,7 @@ Xpm="32 32 2 1"
 Type=0x54
 String1=0x00,natural land
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -2936,7 +2952,7 @@ Type=0x55
 String1=0x07,Torn
 String2=0x00,Tower
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #838383"
@@ -2982,7 +2998,7 @@ Type=0x10100
 String1=0x00,land
 String2=0x07,Land
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFF8DE"
@@ -3028,7 +3044,7 @@ Type=0x10101
 String1=0x00,land
 String2=0x07,Land
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #F8F6F6"
@@ -3073,7 +3089,7 @@ Xpm="32 32 2 1"
 Type=0x1090d
 String1=0x00,conservation
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #A0CBA0"
@@ -3119,7 +3135,7 @@ Type=0x10f05
 String1=0x07,Byggnad
 String2=0x00,Building
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="0 0 1 0"
 "1 c #C5C5C5"
@@ -3131,7 +3147,7 @@ Type=0x10f07
 String1=0x00,commercial_area
 String2=0x07,Kommersiell plats
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #E2CED2"
@@ -3176,7 +3192,7 @@ Xpm="32 32 2 1"
 Type=0x10f13
 String1=0x00,beachvolleyball
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFCA8B"
@@ -3222,7 +3238,7 @@ Type=0x10f14
 String1=0x00,Orchard
 String2=0x07,Trädgård
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -3265,9 +3281,9 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x10f15
-String1=0x00,man_mande
+String1=0x00,man_made
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #A4A4A4"
@@ -3312,7 +3328,7 @@ Xpm="32 32 2 1"
 Type=0x10f16
 String1=0x00,Building
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #A4A4A4"
@@ -3357,7 +3373,7 @@ Xpm="32 32 2 1"
 Type=0x10f17
 String1=0x00,Leisure other
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #0065D5"
@@ -3402,7 +3418,7 @@ Xpm="32 32 2 1"
 Type=0x10f18
 String1=0x00,Tourism other
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #A0CBA0"
@@ -3447,7 +3463,7 @@ Xpm="32 32 2 1"
 Type=0x10f19
 String1=0x00,Sport other
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFCA41"
@@ -3492,7 +3508,7 @@ Xpm="32 32 2 1"
 Type=0x10f1a
 String1=0x00,Landuse
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD9500"
@@ -3537,7 +3553,7 @@ Xpm="32 32 2 1"
 Type=0x10f1b
 String1=0x00,Natural
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #A0CBA0"
@@ -3582,7 +3598,7 @@ Xpm="32 32 2 1"
 Type=0x10f1c
 String1=0x00,Amenity
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD308B"
@@ -3628,7 +3644,7 @@ Type=0x10f1d
 String1=0x00,sea
 String2=0x07,Sjö
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #39CAFF"
@@ -3674,7 +3690,7 @@ Type=0x11000
 String1=0x00,boatyard
 String2=0x07,Båtvarv
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #39CAFF"
@@ -3719,7 +3735,7 @@ Xpm="32 32 2 1"
 Type=0x11001
 String1=0x00,dock
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="0 0 1 0"
 "1 c #BDCAD5"
@@ -3729,9 +3745,9 @@ Xpm="0 0 1 0"
 [_polygon]
 Type=0x11002
 String1=0x00,playground
-String2=0x07,Lekplatd
+String2=0x07,Lekplats
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -3777,7 +3793,7 @@ Type=0x11003
 String1=0x00,equestrian
 String2=0x07,Ridsport
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -3794,7 +3810,7 @@ Xpm="32 32 2 1"
 "!!!!!!!!!!#!!!!!!!!!!!##!!!!!!!!"
 "!!!!!!!!!!#!!!!!!!!!!!!#!!!!!!!!"
 "!!!!!!!!!#!!!!!!!!!!!!!##!!!!!!!"
-"!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!#!!!!!!!!!!!!!!#!!!!!!!"
 "!!!!!!!!!#!!!!!!!!!!!!!!#!!!!!!!"
 "!!!!!!!!!#!!!!!!!!!!!!!!#!!!!!!!"
 "!!!!!!!!!#!!!!!!!!!!!!!!#!!!!!!!"
@@ -3823,7 +3839,7 @@ Type=0x11004
 String1=0x00,basketball
 String2=0x07,Basket
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #838383"
@@ -3869,7 +3885,7 @@ Type=0x11005
 String1=0x00,hockey
 String2=0x07,Ishockey
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -3914,7 +3930,7 @@ Xpm="32 32 2 1"
 Type=0x11006
 String1=0x00,rugby
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -3960,7 +3976,7 @@ Type=0x11007
 String1=0x00,shop
 String2=0x07,Butik
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #949494"
@@ -4006,7 +4022,7 @@ Type=0x11008
 String1=0x00,public building
 String2=0x07,Offentlig byggnad
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="0 0 1 0"
 "1 c #737373"
@@ -4018,7 +4034,7 @@ Type=0x11009
 String1=0x00,importan_public_building
 String2=0x07,Viktig offentlig byggnad
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="0 0 1 0"
 "1 c #626262"
@@ -4028,9 +4044,9 @@ Xpm="0 0 1 0"
 [_polygon]
 Type=0x1100a
 String1=0x00,doctors
-String2=0x02,Doktor
+String2=0x07,Doktor
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFFFFF"
@@ -4076,7 +4092,7 @@ Type=0x1100b
 String1=0x00,post/bank
 String2=0x07,Post/Bank
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #838383"
@@ -4122,7 +4138,7 @@ Type=0x1100c
 String1=0x00,Marina
 String2=0x07,Hamn
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #39CAFF"
@@ -4168,7 +4184,7 @@ Type=0x1100d
 String1=0x00,beach
 String2=0x07,Strand
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BD9520"
@@ -4214,7 +4230,7 @@ Type=0x1100e
 String1=0x00,Cliff or Construction
 String2=0x07,Klippa eller konstruktion
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #B4B4B4"
@@ -4260,7 +4276,7 @@ Type=0x1100f
 String1=0x00,bedrock
 String2=0x07,Berggrund
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #A4A4A4"
@@ -4306,7 +4322,7 @@ Type=0x11010
 String1=0x00,outdoor Sport
 String2=0x07,Utomhussport
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -4351,7 +4367,7 @@ Xpm="32 32 2 1"
 Type=0x11011
 String1=0x00,minigolf
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -4397,7 +4413,7 @@ Type=0x11012
 String1=0x00,pitch
 String2=0x07,Plan
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -4443,7 +4459,7 @@ Type=0x11014
 String1=0x00,heathland
 String2=0x07,Hed
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #FFCAB4"
@@ -4489,7 +4505,7 @@ Type=0x11015
 String1=0x00,fell
 String2=0x07,Avverkat
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #D5D5D5"
@@ -4535,7 +4551,7 @@ Type=0x11016
 String1=0x00,scree
 String2=0x07,Sluttning med rasande stenar
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #B4B4B4"
@@ -4581,7 +4597,7 @@ Type=0x11017
 String1=0x00,scrub
 String2=0x07,Buskskog
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -4626,7 +4642,7 @@ Xpm="32 32 2 1"
 Type=0x11018
 String1=0x00,garden
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="0 0 1 0"
 "1 c #BDFFB4"
@@ -4636,8 +4652,9 @@ Xpm="0 0 1 0"
 [_polygon]
 Type=0x11019
 String1=0x00,Farm
+String2=0x07,Åker
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #BDCA00"
@@ -4683,7 +4700,7 @@ Type=0x1101a
 String1=0x00,battlefield
 String2=0x07,Slagfält
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -4729,7 +4746,7 @@ Type=0x1101b
 String1=0x00,tidal land
 String2=0x07,Tidvattenmark
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #7BCAFF"
@@ -4775,7 +4792,7 @@ Type=0x1101c
 String1=0x00,wetland
 String2=0x07,Våtmark
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #3965D5"
@@ -4821,7 +4838,7 @@ Type=0x1101d
 String1=0x00,coniferous forest
 String2=0x07,Barrskog
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -4867,7 +4884,7 @@ Type=0x1101e
 String1=0x00,deciduous forest
 String2=0x07,lövskog
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -4913,7 +4930,7 @@ Type=0x1101f
 String1=0x00,mixed forest
 String2=0x07,blandskog
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=Default
 CustomColor=No
 Xpm="32 32 2 1"
 "! c #80AB80"
@@ -5099,27 +5116,172 @@ ExtendedLabels=N
 
 [_line]
 Type=0x0a
-UseOrientation=Y
-LineWidth=3
-BorderWidth=2
-Xpm="0 0 2 0"
-"1 c #9C7653"
-"2 c #FFFFFF"
-String1=0x00,Track
-String2=0x07,Spår
-ExtendedLabels=N
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #414141"
+"# c #FFFFFF"
+"!!!!!!!!!!!!####!!!!!!!!!!!!####"
+"!!!!!!!!!!!!####!!!!!!!!!!!!####"
+"!!!!!!!!!!!!####!!!!!!!!!!!!####"
+;12345678901234567890123456789012
+String1=0x00,track
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x0b
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #FFCA41"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,unclassified
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
 [end]
 
 
 [_line]
 Type=0x0c
-UseOrientation=Y
-LineWidth=1
-Xpm="0 0 1 0"
-"1 c #FFFFFF"
-String1=0x07,Rondell
-String2=0x00,Roundabout
-ExtendedLabels=N
+UseOrientation=N
+Xpm="32 8 2  1"
+"! c #000000"
+"  c none"
+"                                "
+"           !!!!!!!!!            "
+"          !!!!!!!!!!!           "
+"          !!!!!!!!!!!           "
+"          !!!!!!!!!!!           "
+"          !!!!!!!!!!!           "
+"           !!!!!!!!!            "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Roundabout
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x0d
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #FF0000"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!    "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!    "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!    "
+;12345678901234567890123456789012
+String1=0x00,Track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x0e
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #FF0000"
+"  c none"
+"!!!!!!!!!!!!    !!!!!!!!!!!!    "
+"!!!!!!!!!!!!    !!!!!!!!!!!!    "
+"!!!!!!!!!!!!    !!!!!!!!!!!!    "
+;12345678901234567890123456789012
+String1=0x00,Track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x0f
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #FF0000"
+"  c none"
+"!!!!!   !!!!!   !!!!!   !!!!!   "
+"!!!!!   !!!!!   !!!!!   !!!!!   "
+"!!!!!   !!!!!   !!!!!   !!!!!   "
+;12345678901234567890123456789012
+String1=0x00,Track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #FF0020"
+"  c none"
+"!!!!!!!!!!!!!!  !!!!!!!!!!!!!!  "
+"!!!!!!!!!!!!!!  !!!!!!!!!!!!!!  "
+;12345678901234567890123456789012
+String1=0x00,Track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x11
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #313131"
+"  c none"
+"!!! !!! !!! !!! !!! !!! !!! !!! "
+"!!! !!! !!! !!! !!! !!! !!! !!! "
+"!!! !!! !!! !!! !!! !!! !!! !!! "
+;12345678901234567890123456789012
+String1=0x00,Cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x12
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #FF0000"
+"  c none"
+"!!!!!   !!!!!   !!!!!   !!!!!   "
+"                                "
+"!!!!!   !!!!!   !!!!!   !!!!!   "
+;12345678901234567890123456789012
+String1=0x00,Track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x13
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #000000"
+"  c none"
+"                                "
+;12345678901234567890123456789012
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 
@@ -5156,28 +5318,84 @@ ExtendedLabels=N
 
 [_line]
 Type=0x18
-UseOrientation=Y
-LineWidth=2
-Xpm="0 0 1 0"
-"1 c #39CAFF"
-String1=0x00,Stream
-String2=0x07,Ström
-ExtendedLabels=N
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #39CAFF"
+"# c #FFFFFF"
+"!!!!!!!!!!!!#####!!!!!!!!!!#####"
+"!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!#!"
+;12345678901234567890123456789012
+String1=0x00,stream
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1a
+UseOrientation=N
+Xpm="32 4 2  1"
+"! c #000000"
+"  c none"
+"  !          !            !     "
+" !!!        !!!          !!!    "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+" !!!        !!!          !!!    "
+;12345678901234567890123456789012
+String1=0x00,Ferry
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1b
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #7B0000"
+"  c none"
+"        !!!!!                   "
+"        !   !                   "
+"!!!!!!!!!   !!!!!!!!!!!!!!!!!!!!"
+"        !   !                   "
+"        !!!!!                   "
+;12345678901234567890123456789012
+String1=0x00,Gondola
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
 [end]
 
 
 [_line]
 Type=0x1c
 UseOrientation=N
-Xpm="32 2 2  1"
-"! c #A752A3"
-"# c #000E00"
-"####!!!!####!!!!####!!!!####!!!!"
-"####!!!!####!!!!####!!!!####!!!!"
+Xpm="32 1 2  1"
+"! c #FF6500"
+"  c none"
+"!!!     !!!     !!!     !!!     "
 ;12345678901234567890123456789012
-String1=0x00,Boundary
-String2=0x07,Gräns
-ExtendedLabels=N
+String1=0x00,admin_level
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1d
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #FF6500"
+"# c #FFFFFF"
+"!!!#####!!!#####!!!#####!!!#####"
+;12345678901234567890123456789012
+String1=0x00,admin_level
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 
@@ -5185,62 +5403,134 @@ ExtendedLabels=N
 Type=0x1e
 UseOrientation=N
 Xpm="32 2 2  1"
-"! c #A752A3"
-"# c #000E00"
-"############!!!!############!!!!"
-"############!!!!############!!!!"
+"! c #FF6500"
+"  c none"
+"!!!!!!!!!      !!      !!!!!!!!!"
+"!!!!!!!!!      !!      !!!!!!!!!"
 ;12345678901234567890123456789012
-String1=0x00,International boundary
-String2=0x07,Internationell gräns
-ExtendedLabels=N
+String1=0x00,national boundary
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 
 [_line]
 Type=0x1f
-UseOrientation=Y
-LineWidth=3
-Xpm="0 0 1 0"
-"1 c #39CAFF"
-String1=0x00,River
-String2=0x07,Å
-ExtendedLabels=N
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #39CAFF"
+"# c #FFFFFF"
+"!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!##!!!!!!!!!!!!!!!!!"
+"!!!!!!!!########!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!##!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,river
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x20
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #BD958B"
+"  c none"
+"!   !   !   !   !   !   !   !   "
+;12345678901234567890123456789012
+String1=0x00,20m
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x21
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #BD958B"
+"  c none"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+;12345678901234567890123456789012
+String1=0x00,50m
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x22
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #BD958B"
+"  c none"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+;12345678901234567890123456789012
+String1=0x00,250m
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
 [end]
 
 
 [_line]
 Type=0x27
-UseOrientation=Y
-LineWidth=8
-Xpm="0 0 1 0"
-"1 c #999999"
-String1=0x00,Runway
-String2=0x07,Flygbana
-ExtendedLabels=N
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #000000"
+"# c #949494"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"################################"
+"################################"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,runway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 
 [_line]
 Type=0x28
-UseOrientation=Y
-LineWidth=2
-Xpm="0 0 1 0"
-"1 c #660000"
-String1=0x00,Pipe line
-String2=0x07,Rörledning
-ExtendedLabels=N
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #414141"
+"# c #39CAFF"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,pipeline
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 
 [_line]
 Type=0x29
-UseOrientation=Y
-LineWidth=1
-Xpm="0 0 1 0"
-"1 c #666666"
-String1=0x00,Power line
-String2=0x07,Kraftledning
-ExtendedLabels=N
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #000000"
+"  c none"
+"         !                      "
+"        ! !                     "
+"!!!!!!!  !  !!!!!!!!!!!!!!!!!!!!"
+"         !                      "
+"        ! !                     "
+;12345678901234567890123456789012
+String1=0x00,Powerline
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 
@@ -5318,6 +5608,2308 @@ ExtendedLabels=N
 
 
 [_line]
+Type=0x10001
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #000000"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,bridge
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10002
+UseOrientation=N
+Xpm="32 12 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10003
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #000000"
+"  c none"
+" !      !        !      !       "
+"  !    !          !    !        "
+"   !  !            !  !         "
+"    !!              !!          "
+"                                "
+"                                "
+"    !!              !!          "
+"   !  !            !  !         "
+"  !    !          !    !        "
+" !      !        !      !       "
+;12345678901234567890123456789012
+String1=0x00,bicycle
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#000000
+[end]
+
+
+[_line]
+Type=0x10004
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #202020"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!      !!!!      !!!!      !!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,Rails
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10005
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #000000"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,bridge
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10006
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10007
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #000000"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,bridge
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10008
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #525252"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,residential
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#525252
+[end]
+
+
+[_line]
+Type=0x10009
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1000a
+UseOrientation=N
+Xpm="32 9 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1000b
+UseOrientation=N
+Xpm="32 9 2  1"
+"! c #000000"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,bridge
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1000c
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #000000"
+"  c none"
+"     !!           !!            "
+"    !  !         !  !           "
+"!!!!!  !!!!!!!!!!!  !!!!!!!!!!!!"
+"    !  !         !  !           "
+"     !!           !!            "
+;12345678901234567890123456789012
+String1=0x00,chairlift
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1000d
+UseOrientation=N
+Xpm="32 7 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,railway_tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1000e
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #838383"
+"  c none"
+"     !       !       !       !  "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"     !       !       !       !  "
+;12345678901234567890123456789012
+String1=0x00,subway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1000f
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,railway_tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10010
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #202020"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!      !!!!      !!!!      !!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,Rails
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10013
+UseOrientation=N
+LineWidth=4
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #7B95D5"
+"2 c #313131"
+String1=0x00,motorway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10014
+UseOrientation=N
+Xpm="32 9 2  1"
+"! c #BD9500"
+"  c none"
+"!!!!!!!!!       !!!!!!!!!       "
+"!!!!!!!!!       !!!!!!!!!       "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,bridleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10017
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #BD6520"
+"# c #B4B4B4"
+"!!!###!!!!!!!###!!!!!!!!###!!!!!"
+"!!!###!!!!!!!###!!!!!!!!###!!!!!"
+"!!!###!!!!!!!###!!!!!!!!###!!!!!"
+;12345678901234567890123456789012
+String1=0x00,Bridleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#000000
+[end]
+
+
+[_line]
+Type=0x10018
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #000000"
+"  c none"
+"     !!           !!            "
+"    !  !         !  !           "
+"!!!!!  !!!!!!!!!!!  !!!!!!!!!!!!"
+"    !  !         !  !           "
+"     !!           !!            "
+;12345678901234567890123456789012
+String1=0x00,chairlift
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1001b
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #FFCA41"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,unclassified
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1001c
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #414141"
+"# c #FFFFFF"
+"!!!!!!!!!!!!####!!!!!!!!!!!!####"
+"!!!!!!!!!!!!####!!!!!!!!!!!!####"
+"!!!!!!!!!!!!####!!!!!!!!!!!!####"
+;12345678901234567890123456789012
+String1=0x00,track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1001d
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #399500"
+"# c #FFFFFF"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!#####"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!#####"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!#####"
+;12345678901234567890123456789012
+String1=0x00,Path
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#000000
+[end]
+
+
+[_line]
+Type=0x1001e
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #313131"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,residential
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1001f
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #BD6500"
+"  c none"
+"!!!!  !!!!  !!!!  !!!!  !!!!  !!"
+"!!!!  !!!!  !!!!  !!!!  !!!!  !!"
+;12345678901234567890123456789012
+String1=0x00,footway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10101
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #525252"
+"  c none"
+"    !               !           "
+"   ! !             ! !          "
+"  ! ! !           ! ! !         "
+" ! ! ! !         ! ! ! !        "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,cliff
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10102
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #525252"
+"# c #BD9500"
+"!#!!#!!#!!#!!#!!#!!#!!#!!#!!#!!#"
+;12345678901234567890123456789012
+String1=0x00,wall
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10103
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #525252"
+"# c #BD9500"
+"!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+"!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+;12345678901234567890123456789012
+String1=0x00,retaining_wall
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10104
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #313131"
+"# c #949494"
+"!!##!!##!!##!!##!!##!!##!!##!!##"
+"!!##!!##!!##!!##!!##!!##!!##!!##"
+;12345678901234567890123456789012
+String1=0x00,city_wall
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10105
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #3995FF"
+"  c none"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"             !                  "
+"            !!                  "
+"           !!!!!!!!!!           "
+"            !!                  "
+"             !                  "
+;12345678901234567890123456789012
+String1=0x00,Cyclelane left
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10106
+UseOrientation=N
+Xpm="32 6 2  1"
+"! c #BD30D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Opposite_track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10107
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #000000"
+"# c #FFFF41"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"###!!###!!###!!###!!###!!###!!##"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,bus_guideway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10108
+UseOrientation=N
+Xpm="32 4 2  1"
+"! c #000000"
+"# c #7BCAFF"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"################################"
+;12345678901234567890123456789012
+String1=0x00,weir
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10109
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #BD6500"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,path
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1010a
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #000000"
+"# c #949494"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+;12345678901234567890123456789012
+String1=0x00,taxiway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1010b
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #626262"
+"  c none"
+"!!!  !!!  !!!  !!!  !!!  !!!  !!"
+"!!!  !!!  !!!  !!!  !!!  !!!  !!"
+;12345678901234567890123456789012
+String1=0x00,apron
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1010c
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #000000"
+"  c none"
+"                                "
+;12345678901234567890123456789012
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1010d
+UseOrientation=N
+LineWidth=1
+BorderWidth=0
+Xpm="0 0 2 0"
+"1 c #BD9500"
+"2 c #000000"
+String1=0x00,fence
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1010e
+UseOrientation=N
+Xpm="32 14 2  1"
+"! c #313131"
+"  c none"
+" !        !      !        !     "
+"  !      !        !      !      "
+"   !    !          !    !       "
+"    !  !            !  !        "
+"     !!              !!         "
+"                                "
+"                                "
+"                                "
+"                                "
+"     !!              !!         "
+"    !  !            !  !        "
+"   !    !          !    !       "
+"  !      !        !      !      "
+" !        !      !        !     "
+;12345678901234567890123456789012
+String1=0x00,bicycle
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#000000
+[end]
+
+
+[_line]
+Type=0x1010f
+UseOrientation=N
+Xpm="32 17 2  1"
+"! c #313131"
+"  c none"
+" !        !      !        !     "
+"  !      !        !      !      "
+"   !    !          !    !       "
+"    !  !            !  !        "
+"     !!              !!         "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"     !!              !!         "
+"    !  !            !  !        "
+"   !    !          !    !       "
+"  !      !        !      !      "
+" !        !      !        !     "
+;12345678901234567890123456789012
+String1=0x00,bicycle
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#000000
+[end]
+
+
+[_line]
+Type=0x10117
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #626262"
+"# c #00CA00"
+"!!!###!!!###!!!###!!!###!!!###!!"
+"################################"
+;12345678901234567890123456789012
+String1=0x00,national_park
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10118
+UseOrientation=N
+Xpm="32 9 2  1"
+"! c #0000D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10119
+UseOrientation=N
+Xpm="32 9 2  1"
+"! c #0000D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1011a
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #0000D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1011b
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #000000"
+"# c #BD00D5"
+"!##!!##!!##!!##!!##!!##!!##!!##!"
+"!##!!##!!##!!##!!##!!##!!##!!##!"
+"!##!!##!!##!!##!!##!!##!!##!!##!"
+;12345678901234567890123456789012
+String1=0x00,snowpark
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1011c
+UseOrientation=N
+Xpm="32 7 2  1"
+"! c #0000D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1011d
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #00CAFF"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1011e
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #00CAFF"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1011f
+UseOrientation=N
+Xpm="32 7 2  1"
+"! c #0000D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10400
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #313131"
+"  c none"
+" !        !      !        !     "
+"  !      !        !      !      "
+"   !    !          !    !       "
+"    !  !            !  !        "
+"     !!              !!         "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"     !!              !!         "
+"    !  !            !  !        "
+"   !    !          !    !       "
+"  !      !        !      !      "
+" !        !      !        !     "
+;12345678901234567890123456789012
+String1=0x00,bicycle
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#000000
+[end]
+
+
+[_line]
+Type=0x10401
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #838383"
+"  c none"
+"                                "
+"  !!                            "
+"  !!!!                          "
+"  !!!!!!                        "
+"                                "
+"                                "
+"  !!!!!!                        "
+"  !!!!                          "
+"  !!                            "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10402
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #838383"
+"  c none"
+"                                "
+"    !!                          "
+"  !!!!                          "
+"!!!!!!                          "
+"                                "
+"                                "
+"!!!!!!                          "
+"  !!!!                          "
+"    !!                          "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10403
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #3995FF"
+"  c none"
+"                     !          "
+"                     !!         "
+"              !!!!!!!!!!        "
+"                     !!         "
+"                     !          "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Cyclelane right
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10408
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #0000D5"
+"  c none"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"             !                  "
+"            !!                  "
+"           !!!!!!!!!!           "
+"            !!                  "
+"             !                  "
+;12345678901234567890123456789012
+String1=0x00,Cycletrack left
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1040b
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #FF30FF"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Opposite
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1040c
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #7B6500"
+"  c none"
+"!!! !!! !!! !!! !!! !!! !!! !!! "
+"!!! !!! !!! !!! !!! !!! !!! !!! "
+;12345678901234567890123456789012
+String1=0x00,parking_aisle
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1040d
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #BD30D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Opposite_track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1040e
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #000000"
+"  c none"
+"  !!                            "
+"   !!                           "
+"    !!                          "
+"     !!                         "
+"      !!                        "
+"       !!                       "
+"        !!                      "
+"         !!                     "
+"        !!                      "
+"       !!                       "
+"      !!                        "
+"     !!                         "
+"    !!                          "
+"   !!                           "
+"  !!                            "
+;12345678901234567890123456789012
+String1=0x00,Cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1040f
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #000000"
+"  c none"
+"            !!                  "
+"           !!                   "
+"          !!                    "
+"         !!                     "
+"        !!                      "
+"       !!                       "
+"      !!                        "
+"     !!                         "
+"      !!                        "
+"       !!                       "
+"        !!                      "
+"         !!                     "
+"          !!                    "
+"           !!                   "
+"            !!                  "
+;12345678901234567890123456789012
+String1=0x00,Cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10500
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #3995FF"
+"  c none"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"             !                  "
+"            !!                  "
+"           !!!!!!!!!!           "
+"            !!                  "
+"             !                  "
+;12345678901234567890123456789012
+String1=0x00,Cyclelane left
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10501
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #3995FF"
+"  c none"
+"                     !          "
+"                     !!         "
+"              !!!!!!!!!!        "
+"                     !!         "
+"                     !          "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Cyclelane right
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10502
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #0000D5"
+"  c none"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"             !                  "
+"            !!                  "
+"           !!!!!!!!!!           "
+"            !!                  "
+"             !                  "
+;12345678901234567890123456789012
+String1=0x00,Cycletrack left
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10503
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #0000B4"
+"  c none"
+"                     !          "
+"                     !!         "
+"              !!!!!!!!!!        "
+"                     !!         "
+"                     !          "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Cycletrack right
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10504
+UseOrientation=N
+Xpm="32 17 2  1"
+"! c #3995FF"
+"  c none"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"             !                  "
+"            !!                  "
+"           !!!!!!!!!!           "
+"            !!                  "
+"             !                  "
+;12345678901234567890123456789012
+String1=0x00,Cyclelane left
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10505
+UseOrientation=N
+Xpm="32 17 2  1"
+"! c #3995FF"
+"  c none"
+"                     !          "
+"                     !!         "
+"              !!!!!!!!!!        "
+"                     !!         "
+"                     !          "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Cyclelane right
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10506
+UseOrientation=N
+Xpm="32 17 2  1"
+"! c #0000D5"
+"  c none"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"             !                  "
+"            !!                  "
+"           !!!!!!!!!!           "
+"            !!                  "
+"             !                  "
+;12345678901234567890123456789012
+String1=0x00,Cycletrack left
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10507
+UseOrientation=N
+Xpm="32 17 2  1"
+"! c #0000B4"
+"  c none"
+"                     !          "
+"                     !!         "
+"              !!!!!!!!!!        "
+"                     !!         "
+"                     !          "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Cycletrack right
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10508
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #000000"
+"  c none"
+"          !                     "
+"         !!                     "
+"        !!                      "
+"       !!                       "
+"      !!                        "
+"     !!                         "
+"      !!                        "
+"       !!                       "
+"        !!                      "
+"         !!                     "
+"          !                     "
+;12345678901234567890123456789012
+String1=0x00,Cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10600
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10601
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #000000"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,bridge
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10602
+UseOrientation=N
+Xpm="32 8 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10603
+UseOrientation=N
+Xpm="32 8 2  1"
+"! c #000000"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,bridge
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10604
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #838383"
+"  c none"
+"      !                         "
+"    !!!                         "
+"  !!!!!                         "
+"!!!!!!!                         "
+"                                "
+"                                "
+"                                "
+"!!!!!!!                         "
+"  !!!!!                         "
+"    !!!                         "
+"      !                         "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10606
+UseOrientation=N
+Xpm="32 4 2  1"
+"! c #000000"
+"  c none"
+"  !          !            !     "
+" !!!        !!!          !!!    "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+" !!!        !!!          !!!    "
+;12345678901234567890123456789012
+String1=0x00,Ferry
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10607
+UseOrientation=N
+Xpm="32 14 2  1"
+"! c #737373"
+"  c none"
+" !                              "
+" !!!                            "
+" !!!!!                          "
+" !!!!!!!                        "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+" !!!!!!!                        "
+" !!!!!                          "
+" !!!                            "
+" !                              "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10609
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #FF30FF"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Opposite
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1060a
+UseOrientation=N
+Xpm="32 14 2  1"
+"! c #737373"
+"  c none"
+"        !                       "
+"      !!!                       "
+"    !!!!!                       "
+"  !!!!!!!                       "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"  !!!!!!!                       "
+"    !!!!!                       "
+"      !!!                       "
+"        !                       "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1060b
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #626262"
+"  c none"
+" !                              "
+" !!!                            "
+" !!!!!                          "
+" !!!!!!!                        "
+"                                "
+"                                "
+"                                "
+" !!!!!!!                        "
+" !!!!!                          "
+" !!!                            "
+" !                              "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1060c
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #838383"
+"  c none"
+"   !!   !!   !!   !!   !!   !!  "
+;12345678901234567890123456789012
+String1=0x00,road - fixme
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1060e
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #000000"
+"  c none"
+" !      !        !      !       "
+"  !    !          !    !        "
+"   !  !            !  !         "
+"    !!              !!          "
+"                                "
+"                                "
+"                                "
+"    !!              !!          "
+"   !  !            !  !         "
+"  !    !          !    !        "
+" !      !        !      !       "
+;12345678901234567890123456789012
+String1=0x00,bicycle
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#000000
+[end]
+
+
+[_line]
+Type=0x10610
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #414141"
+"  c none"
+"!!!    !!!    !!!    !!!   !!   "
+"!!!    !!!    !!!    !!!   !!   "
+"!!!    !!!    !!!    !!!   !!   "
+;12345678901234567890123456789012
+String1=0x00,pedestrian
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10612
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #39CA00"
+"  c none"
+"!!!  !!!  !!!  !!!  !!!  !!!  !!"
+;12345678901234567890123456789012
+String1=0x00,hedge
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10618
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #0000D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10619
+UseOrientation=N
+Xpm="32 9 2  1"
+"! c #00CAFF"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x1061a
+UseOrientation=N
+Xpm="32 6 2  1"
+"! c #0000D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+;12345678901234567890123456789012
+String1=0x00,cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10700
+UseOrientation=N
+Xpm="32 12 2  1"
+"! c #000000"
+"  c none"
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
+;12345678901234567890123456789012
+String1=0x00,tunnel
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10701
+UseOrientation=N
+Xpm="32 12 2  1"
+"! c #000000"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,bridge
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10702
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #313131"
+"  c none"
+"     !                          "
+"     !!                         "
+"      !!                        "
+"       !!                       "
+"        !!                      "
+"         !!                     "
+"        !!                      "
+"       !!                       "
+"      !!                        "
+"     !!                         "
+"     !                          "
+;12345678901234567890123456789012
+String1=0x00,Cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10703
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #FF30FF"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Opposite_lane
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10704
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #BD30D5"
+"  c none"
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"!!!!    !!!!    !!!!    !!!!    "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Opposite_track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10705
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #0000B4"
+"  c none"
+"                     !          "
+"                     !!         "
+"              !!!!!!!!!!        "
+"                     !!         "
+"                     !          "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,Cycletrack right
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10706
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #313131"
+"  c none"
+"      !!                        "
+"       !!                       "
+"        !!                      "
+"         !!                     "
+"          !!                    "
+"          !!                    "
+"         !!                     "
+"        !!                      "
+"       !!                       "
+"      !!                        "
+;12345678901234567890123456789012
+String1=0x00,Cycleway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10707
+UseOrientation=N
+Xpm="32 10 2  1"
+"! c #313131"
+"  c none"
+"       !!                       "
+"      !!                        "
+"     !!                         "
+"    !!                          "
+"   !!                           "
+"   !!                           "
+"    !!                          "
+"     !!                         "
+"      !!                        "
+"       !!                       "
+;12345678901234567890123456789012
+String1=0x00,Opposite_lane
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10a00
+UseOrientation=N
+Xpm="32 7 2  1"
+"! c #7BCAFF"
+"# c #0000D5"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!"
+"!!!!!!!!!!!!!!!!!!!!!!!#########"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,huge river
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10a01
+UseOrientation=N
+LineWidth=3
+BorderWidth=0
+Xpm="0 0 2 0"
+"1 c #00CAFF"
+"2 c #000000"
+String1=0x00,canal
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10a02
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #737373"
+"  c none"
+" !                              "
+" !!!                            "
+" !!!!!                          "
+" !!!!!!!                        "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+" !!!!!!!                        "
+" !!!!!                          "
+" !!!                            "
+" !                              "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10a03
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #737373"
+"  c none"
+"        !                       "
+"      !!!                       "
+"    !!!!!                       "
+"  !!!!!!!                       "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"  !!!!!!!                       "
+"    !!!!!                       "
+"      !!!                       "
+"        !                       "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10a04
+UseOrientation=N
+Xpm="32 7 2  1"
+"! c #0000D5"
+"# c #BDFFFF"
+"!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+"#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
+"!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+"#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
+"!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+"#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
+"!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+;12345678901234567890123456789012
+String1=0x00,waterfall
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10a05
+UseOrientation=N
+Xpm="32 4 2  1"
+"! c #7BFFD5"
+"  c none"
+" !   !   !   !   !   !   !   !  "
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+"   !   !   !   !   !   !   !   !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+;12345678901234567890123456789012
+String1=0x00,skirun
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e06
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #D5D5D5"
+"# c #7B0020"
+"!!!!########!!!!!!!!########!!!!"
+"!!####!!!!####!!!!####!!!!####!!"
+"####!!!!!!!!########!!!!!!!!####"
+;12345678901234567890123456789012
+String1=0x00,living_street
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e07
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #D5D5D5"
+"# c #3965B4"
+"!!!!########!!!!!!!!########!!!!"
+"!!####!!!!####!!!!####!!!!####!!"
+"####!!!!!!!!########!!!!!!!!####"
+;12345678901234567890123456789012
+String1=0x00,living_street + bicycle
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e08
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #7B6500"
+"  c none"
+"  !!  !!  !!  !!  !!  !!  !!  !!"
+"  !!  !!  !!  !!  !!  !!  !!  !!"
+"  !!  !!  !!  !!  !!  !!  !!  !!"
+;12345678901234567890123456789012
+String1=0x00,footway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e09
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #FF0020"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,Track
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
 Type=0x10e0a
 UseOrientation=Y
 Xpm="32 1 2  1"
@@ -5328,6 +7920,764 @@ Xpm="32 1 2  1"
 String1=0x00,Cycle road
 String2=0x07,Cykelväg
 ExtendedLabels=N
+[end]
+
+
+[_line]
+Type=0x10e0b
+UseOrientation=N
+Xpm="32 9 2  1"
+"! c #FFCA8B"
+"  c none"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,footroute
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e0c
+UseOrientation=N
+Xpm="32 13 2  1"
+"! c #FFCA6A"
+"  c none"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x00,hikingroute
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e0e
+UseOrientation=N
+LineWidth=1
+BorderWidth=0
+Xpm="0 0 2 0"
+"1 c #7BCAFF"
+"2 c #000000"
+String1=0x00,drain
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e0f
+UseOrientation=N
+Xpm="32 8 2  1"
+"! c #101010"
+"# c #7BCAFF"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"################################"
+"################################"
+"################################"
+"################################"
+;12345678901234567890123456789012
+String1=0x00,dam
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e1c
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #BD956A"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,service
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e1d
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #BD6500"
+"# c #E6E6E6"
+"!!!!####!!!!####!!!!####!!!!####"
+"###!!!!!###!!!!!###!!!!!###!!!!!"
+;12345678901234567890123456789012
+String1=0x00,Steps
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e1e
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #7BCAFF"
+"# c #0000D5"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!#######"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!"
+;12345678901234567890123456789012
+String1=0x00,river>25
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10e1f
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #FF6500"
+"# c #FFFFFF"
+"!!!###!!!###!!!###!!!###!!!###!!"
+;12345678901234567890123456789012
+String1=0x00,other boundary
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f01
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #414141"
+"  c none"
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+;12345678901234567890123456789012
+String1=0x00,cycleroute
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f02
+UseOrientation=N
+Xpm="32 11 2  1"
+"! c #525252"
+"  c none"
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+;12345678901234567890123456789012
+String1=0x00,cycleroute
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f03
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #7B3000"
+"  c none"
+"!!   !!   !!   !!   !!   !!   !!"
+" !!   !!   !!   !!   !!   !!   !"
+"  !!   !!   !!   !!   !!   !!   "
+;12345678901234567890123456789012
+String1=0x00,construction
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f04
+UseOrientation=N
+LineWidth=5
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #7BCA8B"
+"2 c #414141"
+String1=0x00,trunk
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f05
+UseOrientation=N
+Xpm="32 7 2  1"
+"! c #0000D5"
+"  c none"
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+;12345678901234567890123456789012
+String1=0x00,mtbroute
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f06
+UseOrientation=N
+Xpm="32 7 2  1"
+"! c #414141"
+"  c none"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+;12345678901234567890123456789012
+String1=0x00,cycleroute
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f07
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #626262"
+"  c none"
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! "
+" ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !"
+;12345678901234567890123456789012
+String1=0x00,cycleroute
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f08
+UseOrientation=N
+LineWidth=3
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #BDCA00"
+"2 c #414141"
+String1=0x00,motorroad
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f09
+UseOrientation=N
+LineWidth=5
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #7B95D5"
+"2 c #313131"
+String1=0x00,motorway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f0b
+UseOrientation=N
+LineWidth=4
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #BDCA00"
+"2 c #414141"
+String1=0x00,motorroad
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f0c
+UseOrientation=N
+LineWidth=4
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #7BCA8B"
+"2 c #414141"
+String1=0x00,trunk
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f0d
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #838383"
+"# c #BD0041"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"################################"
+"################################"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,primary
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f0e
+UseOrientation=N
+Xpm="32 5 2  1"
+"! c #838383"
+"# c #FF6500"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"################################"
+"################################"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,secondary
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#414141
+[end]
+
+
+[_line]
+Type=0x10f0f
+UseOrientation=N
+Xpm="32 4 2  1"
+"! c #A9A9A9"
+"# c #FFB93C"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"################################"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,tertiary
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f10
+UseOrientation=N
+LineWidth=3
+BorderWidth=0
+Xpm="0 0 2 0"
+"1 c #7B95D5"
+"2 c #000000"
+String1=0x00,motorway_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f11
+UseOrientation=N
+LineWidth=2
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #7B95D5"
+"2 c #414141"
+String1=0x00,motorway_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f12
+UseOrientation=N
+LineWidth=3
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #7B95D5"
+"2 c #414141"
+String1=0x00,motorway_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f13
+UseOrientation=N
+LineWidth=2
+BorderWidth=0
+Xpm="0 0 2 0"
+"1 c #7BCA8B"
+"2 c #000000"
+String1=0x00,trunk_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f14
+UseOrientation=N
+LineWidth=3
+BorderWidth=0
+Xpm="0 0 2 0"
+"1 c #7BCA8B"
+"2 c #000000"
+String1=0x00,trunk_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f15
+UseOrientation=N
+LineWidth=2
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #7BCA8B"
+"2 c #414141"
+String1=0x00,trunk_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f16
+UseOrientation=N
+Xpm="32 6 2  1"
+"! c #838383"
+"# c #BD0020"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"################################"
+"################################"
+"################################"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,primary
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f17
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #BD0020"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,primary_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f18
+UseOrientation=N
+Xpm="32 4 2  1"
+"! c #A4A4A4"
+"# c #BD0020"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"################################"
+"################################"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,primary_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f19
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #FF6500"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,secondary_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#414141
+[end]
+
+
+[_line]
+Type=0x10f1a
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #FF6500"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,secondary_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#414141
+[end]
+
+
+[_line]
+Type=0x10f1b
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #FFB93C"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x00,tertiary_link
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f1c
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #737373"
+"  c none"
+"!!                              "
+"!!!!                            "
+"!!!!!!                          "
+"!!!!!!!!                        "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!!!!!                        "
+"!!!!!!                          "
+"!!!!                            "
+"!!                              "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f1d
+UseOrientation=N
+Xpm="32 15 2  1"
+"! c #737373"
+"  c none"
+"        !!                      "
+"      !!!!                      "
+"    !!!!!!                      "
+"  !!!!!!!!                      "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"  !!!!!!!!                      "
+"    !!!!!!                      "
+"      !!!!                      "
+"        !!                      "
+;12345678901234567890123456789012
+String1=0x00,oneway
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x10f1e
+UseOrientation=N
+LineWidth=2
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #FF9500"
+"2 c #838383"
+String1=0x00,secondary
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#414141
+[end]
+
+
+[_line]
+Type=0x10f1f
+UseOrientation=N
+Xpm="32 14 2  1"
+"! c #000000"
+"  c none"
+" !      !        !      !       "
+"  !    !          !    !        "
+"   !  !            !  !         "
+"    !!              !!          "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"    !!              !!          "
+"   !  !            !  !         "
+"  !    !          !    !        "
+" !      !        !      !       "
+;12345678901234567890123456789012
+String1=0x00,bicycle
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#000000
+[end]
+
+
+[_line]
+Type=0x11f01
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #737373"
+"  c none"
+"!!!!!!! !!!!!!! !!!!!!! !!!!!!! "
+;12345678901234567890123456789012
+String1=0x00,arete
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x11f02
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #626262"
+"  c none"
+"!  !  !  !  !  !  !  !  !  !  ! "
+;12345678901234567890123456789012
+String1=0x00,couloir
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+
+[_line]
+Type=0x11f03
+UseOrientation=N
+Xpm="32 1 2  1"
+"! c #A4A4A4"
+"  c none"
+"!!!!!!! !!!!!!! !!!!!!! !!!!!!! "
+;12345678901234567890123456789012
+String1=0x00,ridge
+String2=0x07,Ås
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 
