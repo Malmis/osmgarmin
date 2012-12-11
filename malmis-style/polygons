@@ -1,0 +1,29 @@
+# -------------------------------------------------------------------
+# This is the default mkgmap style file for converting closed OSM ways
+# into Garmin polygons.
+# Any line prefaced with # is a comment and will not be applied.
+# Each line is a rule, of the generalised format:
+#  OSM_tag(s)_to_match  [Garmin_type_code resolution]
+# See http://wiki.openstreetmap.org/wiki/Mkgmap/help/style_rules
+# and http://wiki.openstreetmap.org/wiki/Mkgmap/help/Custom_styles
+# for more information.
+
+include 'inc/address';
+include 'inc/aeroway_polygons';
+include 'inc/landuse_polygons';
+include 'inc/military_polygons';
+include 'inc/natural_polygons';
+include 'inc/leisure_polygons';
+include 'inc/way_polygons';
+include 'inc/amenity_polygons';
+include 'inc/parking_polygons';
+include 'inc/healthcare_polygons';
+include 'inc/place_polygons';
+include 'inc/shop_polygons';
+include 'inc/building_historic_polygons';
+include 'inc/manmade_polygons';
+include 'inc/tourism_polygons';
+
+toponym=water & name=* {name '${name}'} [0x3b resolution 20]
+toponym=* & area=yes & name=* {name '${name}'} [0x1b resolution 24 continue]
+boundary = national_park [0x1b resolution 18 continue]

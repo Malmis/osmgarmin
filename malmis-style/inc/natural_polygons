@@ -1,0 +1,28 @@
+# This file contains all the rules for natural=*.
+
+natural=glacier [0x4d resolution 18]
+natural=marsh [0x51 resolution 22-20]
+natural=mud [0x51 resolution 22-20]
+natural=wetland [0x51 resolution 20]
+natural=scrub [0x4f resolution 20]
+natural=wood [0x50 resolution 18]
+
+# tags for land & background
+natural=land [0x27 resolution 20]
+natural=background [0x010101 resolution 14]
+
+natural=sand | surface=sand [0x53 resolution 22 continue]
+natural=beach [0x53 resolution 20]
+natural=glacier [0x4d resolution 16]
+natural=heath [0x22 resolution 22]
+
+# Water
+natural=sea [0x32 resolution 10]
+#natural=sea [0x32 resolution 14]
+natural=water [0x3d resolution 20-18 continue]
+natural=water & roletag=outer [0x3f resolution 22]
+natural=water [0x3c resolution 24-22 continue]
+#natural=water [0x3c resolution 18]
+natural=waterfall | waterway=waterfall [0x47 resolution 21]
+natural=wetland & wetland=tidalflat [0x3d resolution 22]
+natural=wetland [0x51 resolution 22]

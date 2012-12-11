@@ -1,0 +1,4 @@
+# This file contains all the rules for healthcare=*.
+
+healthcare=hospital | amenity=hospital [0x0b resolution 22]
+healthcare=* | amenity=dentist | amenity=doctors | amenity=nursing_home [0x0b resolution 23]

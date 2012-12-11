@@ -1,0 +1,31 @@
+# This file contains all the rules for landuse=*.
+
+landuse=allotments [0x4e resolution 21]
+landuse=basin [0x3f resolution 20]
+landuse=cemetery|landuse=cemetary [0x1a resolution 21]
+landuse=commercial [0x0c resolution 19]
+landuse=construction [0x0c resolution 21]
+landuse=farm [0x4e resolution 20]
+landuse=farmyard [0x4e resolution 22]
+landuse=forest [0x50 resolution 19]
+landuse=greenfield [0x17 resolution 20]
+landuse=meadow [0x17 resolution 19]
+landuse=military [0x04 resolution 19]
+landuse=quarry [0x0c resolution 19]
+landuse=recreation_ground [0x19 resolution 19]
+landuse=reservoir [0x3f resolution 19]
+# on resolution 24, display building=* instead of related landuse=*
+landuse=industrial [0x0c resolution 23-18]
+landuse=residential [0x10 resolution 23-18]
+landuse=residential [0x03 resolution 16]
+landuse=retail [0x08 resolution 23-20]
+landuse=village_green [0x17 resolution 20]
+landuse=vineyard [0x4e resolution 20]
+landuse=wood [0x50 resolution 18]
+
+landuse=reservoir | landuse=basin [0x3d resolution 20-18 continue]
+landuse=reservoir | landuse=basin [0x3c resolution 24-22]
+landuse=construction [0x0d resolution 21]
+(landuse=forest | natural=wood | leisure=park | leisure=nature_reserve | natural=scrub) [0x16 resolution 20 continue]
+landuse=cemetary | landuse=cemetery | amenity=grave_yard [0x1a resolution 22]
+

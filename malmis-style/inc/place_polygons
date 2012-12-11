@@ -1,0 +1,10 @@
+# This file contains all the rules for place=*.
+
+place=village [0x03 resolution 19]
+place=village | boundary=village [0x01 resolution 24]
+place=island & name=* [0x53 resolution 19]
+place=islet & name=* [0x53 resolution 20]
+place=city | boundary=city [0x01 resolution 20]
+place=town | boundary=town | (admin_level = 11 & boundary = administrative) [0x01 resolution 22]
+place=hamlet | boundary=hamlet [0x01 resolution 24]
+place=island | place=islet [0x010101 resolution 18 continue]

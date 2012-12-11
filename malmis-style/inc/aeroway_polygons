@@ -1,0 +1,7 @@
+# This file contains all the rules for aeroway=*.
+
+#aeroway=airport [0x07 resolution 20]
+aeroway=airport [0x07 resolution 18]
+aeroway=aerodrome [0x07 resolution 20]
+aeroway=helipad [0x0e resolution 22]
+aeroway=terminal [0x08 default_name="Terminal" resolution 20]

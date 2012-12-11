@@ -1,0 +1,18 @@
+# This file contains all the rules for highway=* & waterway=*.
+
+# squares and plazas
+# other highways that have area=yes set must be parking lots
+highway=pedestrian & area=yes [0x17 resolution 22]
+highway=* & area=yes [0x05 resolution 22]
+highway=* & area=yes [0x0e resolution 24]
+area:highway=* [0x0e resolution 24]
+man_made=pier  [0x0e default_name="pier" resolution 23 continue]
+man_made=reinforced_slope | man_made=groyne [0x27 resolution 24]
+railway=platform & area=yes [0x0e default_name="platform" resolution 24]
+
+waterway=dam  [0x0e default_name="dam" resolution 22]
+waterway=riverbank [0x46 resolution 20]
+waterway=riverbank [0x3d resolution 20-16 continue]
+waterway=riverbank [0x3c resolution 22] 
+(waterway=canal | waterway=river)   & natural!=water   [0x3c resolution 22] 
+(waterway=drain | waterway=stream)  & natural!=water   [0x3c resolution 24]

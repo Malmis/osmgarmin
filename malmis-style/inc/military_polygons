@@ -1,0 +1,6 @@
+# This file contains all the rules for military=*.
+
+military=airfield [0x04 resolution 20]
+military=barracks [0x04 resolution 23]
+military=danger_area [0x04 resolution 20]
+military=range [0x04 resolution 20]

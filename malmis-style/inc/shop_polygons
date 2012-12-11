@@ -1,0 +1,4 @@
+# This file contains all the rules for shop=*.
+
+shop=* [0x08 resolution 22]
+(shop=bicycle | amenity=bicycle_parking | amenity=bicycle_rental) & building=yes [0x13 resolution 22]
